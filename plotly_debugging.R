@@ -24,11 +24,11 @@ site <- "Warra"
 
 # pft <- "TeBE"
 version <- "out"
+# pft <- "TeBE"
 pft <- "TRspE"
 basepath <- "/Users/30060406/git/lpjguess_dave_assaf/benchmarks/ozflux"
 
 source("~/Library/CloudStorage/Dropbox/R_CODE/HIE/LPJ_allocation_phenology/functions.R")
-
 
 vars_all <-list.files(path = ".") #
 
@@ -80,7 +80,7 @@ group6 <- c( "dave_dalpha_leaf.out","dave_dalpha_root.out","dave_dalpha_sap.out"
 group7 <- c("dave_alpha_leaf_limit.out", "dave_alpha_root_limit.out", "dave_alpha_sap_limit.out", 
             "dave_alpha_repr_limit.out","dave_alpha_storage_limit.out")
 variable_to_plot <- c(group1, group2, group3, group4, group5, group6, group7)
-variable_to_plot <- c(group5, group6, group7)
+# variable_to_plot <- c(group5, group6, group7)
 
 out <- list()
 for (var in variable_to_plot){
